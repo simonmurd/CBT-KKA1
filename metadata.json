@@ -1,0 +1,6 @@
+{
+  "name": "CBT SAS Koding & Kecerdasan Artificial",
+  "description": "Aplikasi Computer-Based Test (CBT) Penilaian Sumatif Akhir Semester Ganjil Mata Pelajaran Koding dan Kecerdasan Artificial Kelas XI TJKT dengan pengacakan berbasis identitas siswa, enkripsi AES-256-GCM, dan integrasi Google Apps Script.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

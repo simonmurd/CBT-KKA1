@@ -1,0 +1,429 @@
+YAYASAN DHARMA BUDDHA MAITREYA
+SEKOLAH MENENGAH KEJURUAN (SMK) MUDITA
+S  I  N  G  K  A  W  A  N  G
+TERAKREDITASI  :  A	    Nomor  : 1466/BAN-SM/SK/2022	         Tanggal : 21 Oktober 2022
+Jalan S.M. Tsjafioeddin No. 32     Kel. Melayu       Kec. Singkawang  Barat      Kota Singkawang 
+Telp. (0562) 6300094    Email : smkmudita36@yahoo.com,web site : htpps://www.smkmudita.sch.id
+NSS : 344130701004					 NPSN : 30105493
+
+LEMBAR SOAL PENILAIAN SUMATIF AKHIR SEMESTER (SAS) GANJIL
+TAHUN PELAJARAN 2026/2027
+
+Mata Pelajaran	:  Koding dan Kecerdasan Artificial
+Kelas 			:  XI
+Program Keahlian	:  Teknik Jaringan Komputer dan Telekomunikasi
+Hari / Tanggal		:  Senin, 7 Desember 2026
+Waktu			:  14.15- 16.15
+
+A.	Petunjuk Pilihan Ganda
+Pilihlah jawaban yang paling tepat, dengan menyilang alternatif A, B, C, D dan E yang telah disediakan!
+
+1.	Dalam pengembangan aplikasi interaktif berbasis grid dua dimensi menggunakan JavaScript, pengembang membutuhkan pemetaan setiap sel koordinat baris dan kolom secara terstruktur agar mudah diakses berdasarkan indeks sumbu vertikal maupun horizontal. Struktur data bawaan JavaScript yang paling tepat digunakan untuk merepresentasikan peta koordinat baris dan kolom tersebut adalah...
+A.	Object literal tunggal
+B.	Array dua dimensi (array bersarang)
+C.	Set bilangan bulat
+D.	String karakter panjang
+E.	Linked list melingkar
+
+2.	Diberikan variabel matriks grid[r][c] yang menyimpan kode tipe elemen 0 sebagai ruang kosong dan 1 sebagai penghalang statis. Apabila di dalam fungsi perpindahan move(nextR, nextC) dituliskan baris validasi if (grid[nextR][nextC] === 1) return;, maka efek langsung dari eksekusi baris kode tersebut ketika indeks tujuan bernilai 1 adalah...
+A.	Mengubah nilai elemen matriks pada indeks tujuan menjadi 0
+B.	Menghentikan seluruh eksekusi skrip program secara paksa
+C.	Membatalkan pembaruan koordinat posisi objek karena fungsi langsung keluar lebih awal
+D.	Menambahkan satu baris baru pada bagian akhir array grid
+E.	Membalik urutan indeks baris dan kolom pada seluruh matriks
+
+3.	Untuk memvalidasi pergeseran elemen bertipe 2 sebanyak satu langkah ke arah kanan pada struktur data array 2D map[row][col] agar elemen tersebut tidak menimpa penghalang maupun keluar dari jalur kosong, syarat kondisi if yang paling tepat dituliskan pada program adalah...
+A.	map[row][col + 1] === 2 && map[row][col + 2] === 1
+B.	map[row][col + 1] === 2 && map[row][col + 2] === 0
+C.	map[row][col + 1] === 0 && map[row][col + 2] === 2
+D.	map[row][col + 1] === 2 || map[row][col + 2] === 3
+E.	map[row][col + 1] !== 1 && map[row][col + 2] === 4
+
+4.	Ketika sebuah entitas berpindah ke koordinat indeks tujuan (nextRow, nextCol) yang menyimpan nilai item koleksi 3 dan item tersebut berhasil diambil oleh entitas, operasi mutasi array JavaScript yang tepat untuk menghapus item dari sel matriks tersebut agar tidak terambil ulang adalah...
+A.	map[nextRow][nextCol] = 1;
+B.	map.pop();
+C.	map[nextRow][nextCol] = 0;
+D.	delete map[nextRow];
+E.	map[nextRow].shift();
+
+5.	Dalam pemrograman antarmuka web interaktif berbasis DOM, event listener utama yang didaftarkan pada objek document atau window untuk menangkap sinyal penekanan tombol arah keyboard secara langsung saat pengguna melakukan navigasi pada grid adalah...
+A.	mousemove
+B.	keydown
+C.	dblclick
+D.	scroll
+E.	resize
+
+6.	Pada konvensi pengaksesan array dua dimensi di JavaScript, indeks pertama (array[i]) selalu merepresentasikan baris (row / sumbu Y) sedangkan indeks kedua (array[i][j]) merepresentasikan kolom (col / sumbu X). Alasan teknis di balik struktur pengindeksan tersebut adalah...
+A.	Karena JavaScript tidak mendukung angka indeks ganjil pada sumbu X
+B.	Karena setiap elemen pada array luar menyimpan satu larik baris horizontal yang tersusun berurutan dari atas ke bawah
+C.	Karena mesin eksekusi V8 hanya membaca alokasi memori dari kanan ke kiri
+D.	Karena fungsi Math.random() mewajibkan format baris lebih dulu
+E.	Karena spesifikasi ECMAScript melarang pengaksesan indeks kolom pada dimensi pertama
+
+7.	Diketahui posisi indeks entitas saat ini berada pada koordinat (r, c) di dalam sebuah matriks grid 2D. Apabila program menerima sinyal input tombol arah ke atas (ArrowUp) untuk menggeser entitas satu sel menuju baris di atasnya, ekspresi perhitungan indeks tujuan (targetR, targetC) yang benar adalah...
+A.	targetR = r + 1; targetC = c;
+B.	targetR = r; targetC = c - 1;
+C.	targetR = r - 1; targetC = c;
+D.	targetR = r; targetC = c + 1;
+E.	targetR = r - 1; targetC = c - 1;
+
+8.	Pada struktur percabangan if (map[targetR][targetC] === 4) yang memeriksa keberadaan entitas berbahaya dengan kode nilai 4 di koordinat tujuan, blok instruksi yang paling umum dijalankan oleh program untuk menangani kondisi tabrakan tersebut adalah...
+A.	Melakukan dekrementasi variabel status seperti lives-- dan memanggil fungsi reset posisi atau terminasi sesi
+B.	Menghapus seluruh elemen matriks yang bernilai 2 menggunakan metode Array.fill()
+C.	Mengalikan variabel score dengan konstanta matematika Math.PI
+D.	Mengubah tipe data struktur matriks dari Array menjadi String
+E.	Menonaktifkan seluruh event listener DOM pada dokumen secara permanen
+
+9.	Konsep arsitektur pemrograman berbasis waktu (temporal logic) dan manajemen status entitas secara dinamis sebagaimana diterapkan pada Modul 6 memiliki pola logika yang banyak diimplementasikan pada pengembangan perangkat lunak dunia nyata seperti...
+A.	Algoritma kompresi aliran video beresolusi tinggi tanpa kehilangan data (lossless)
+B.	Sistem antrean layanan pelanggan secara real-time dan dasbor transaksi kasir modern
+C.	Protokol enkripsi kriptografi kunci publik asimetris RSA
+D.	Mesin rendering grafis ray-tracing tiga dimensi secara luring
+E.	Sistem kompresi arsip biner berbasis pohon Huffman
+
+10.	Untuk mengurangi nilai variabel penghitung mundur (countdown timer) secara berkala setiap 1000 milidetik secara otomatis selama sesi berlangsung, fungsi bawaan Web API pada JavaScript yang paling tepat digunakan adalah...
+A.	setTimeout()
+B.	requestAnimationFrame()
+C.	setInterval()
+D.	clearTimeout()
+E.	Date.now()
+
+11.	Dalam pengelolaan penjadwalan asinkron (asynchronous scheduling) di JavaScript, terdapat perbedaan mendasar antara perilaku eksekusi fungsi setInterval(fn, ms) dan setTimeout(fn, ms) yaitu...
+A.	setInterval() menjadwalkan eksekusi fungsi fn berulang kali setiap jeda ms, sedangkan setTimeout() mengeksekusi fungsi fn satu kali setelah jeda ms
+B.	setInterval() bersifat sinkron dan memblokir thread utama, sedangkan setTimeout() berjalan pada worker thread terpisah
+C.	setInterval() hanya dapat menerima fungsi anonim (arrow function), sedangkan setTimeout() hanya menerima deklarasi fungsi bernama
+D.	setInterval() otomatis berhenti saat tab peramban tidak aktif, sedangkan setTimeout() berjalan terus tanpa henti
+E.	Keduanya mengembalikan objek Promise yang wajib ditunggu menggunakan kata kunci await
+
+12.	Pada perancangan pola Finite State Machine (FSM) untuk mengatur alur siklus pemrosesan pesanan secara berjenjang dari awal hingga selesai, urutan transisi nilai properti state yang logis dan valid adalah...
+A.	'COOKING' -> 'WAITING_ORDER' -> 'EATING' -> 'READY_TO_SERVE'
+B.	'WAITING_ORDER' -> 'COOKING' -> 'READY_TO_SERVE' -> 'EATING'
+C.	'READY_TO_SERVE' -> 'WAITING_ORDER' -> 'COOKING' -> 'ANGRY'
+D.	'EATING' -> 'READY_TO_SERVE' -> 'COOKING' -> 'WAITING_ORDER'
+E.	'WAITING_ORDER' -> 'EATING' -> 'COOKING' -> 'READY_TO_SERVE'
+
+13.	Apabila sebuah proses pemrosesan data di latar belakang memerlukan waktu tunda tepat selama 3 detik sebelum fungsi callback finishBaking dijalankan satu kali, penulisan sintaks pemanggilan timer JavaScript yang sesuai dengan standar parameter milidetik adalah...
+A.	setTimeout(finishBaking, 3);
+B.	setInterval(finishBaking, 3000);
+C.	setTimeout(finishBaking, 3000);
+D.	clearInterval(3000);
+E.	setTimeout(3000, finishBaking);
+
+14.	Ketika blok pengecekan kondisi timer if (customer.patience <= 0) bernilai benar sebelum proses pelayanan diselesaikan, urutan instruksi yang tepat untuk memperbarui status objek dan menghentikan siklus intervalnya adalah...
+A.	Menggandakan nilai customer.patience menjadi 200
+B.	Mengubah customer.state = 'ANGRY', memanggil clearInterval(timerId), dan mengurangi nilai skor
+C.	Memanggil fungsi setInterval() baru tanpa menghentikan ID interval yang lama
+D.	Mengubah tipe data variabel timerId dari angka menjadi nilai boolean
+E.	Menghapus seluruh elemen <canvas> dari struktur pohon DOM
+
+15.	Setiap pemanggilan setInterval() akan mengembalikan nilai ID numerik unik yang wajib disimpan ke dalam sebuah variabel. Alasan utama pengembang harus memanggil clearInterval(id) ketika objek selesai diproses atau sesi berakhir adalah...
+A.	Agar garbage collector peramban dapat membebaskan alokasi memori dan mencegah fungsi callback terus dieksekusi di latar belakang
+B.	Karena mesin JavaScript membatasi maksimal hanya 1 variabel integer aktif dalam satu file skrip
+C.	Untuk menghapus seluruh pasangan kunci-nilai yang tersimpan di dalam localStorage
+D.	Agar properti animasi transisi CSS pada halaman web dapat berjalan dengan lancar
+E.	Karena fungsi setInterval() akan melempar pengecualian SyntaxError apabila tidak dihentikan secara eksplisit
+
+16.	Dalam arsitektur pemrograman berbasis event-driven untuk komponen antarmuka interaktif, pendekatan kode yang tepat agar satu elemen DOM yang sama dapat memberikan respons berbeda sesuai kondisi siklus saat diklik adalah...
+A.	Mendaftarkan element.addEventListener('click', handler) lalu menggunakan percabangan if/else atau switch terhadap properti state objek
+B.	Menggunakan perulangan tak terbatas while(true) untuk memantau koordinat kursor mouse setiap mikrodetik
+C.	Membuat elemen <input> tersembunyi di setiap titik koordinat piksel pada layar
+D.	Memanggil metode location.reload() setiap kali event click terpicu pada elemen tersebut
+E.	Menonaktifkan mekanisme event bubbling menggunakan stopPropagation() di seluruh dokumen
+
+17.	Pada logika pengendalian arah pergerakan objek berantai di dalam grid 2D (Modul 7), program perlu mengunci arah agar objek tidak dapat berbalik arah 180 derajat secara langsung dan menabrak segmen tubuhnya sendiri. Operator perbandingan JavaScript yang digunakan untuk validasi penguncian arah tersebut adalah...
+A.	Operator penugasan tunggal (=)
+B.	Operator ketidaksamaan ketat (!==)
+C.	Operator sisa hasil bagi atau modulus (%)
+D.	Operator bitwise AND (&)
+E.	Operator penambahan satu nilai (++)
+
+18.	Diketahui variabel status arah saat ini menyimpan nilai string direction === 'RIGHT'. Ketika program menerima sinyal input untuk mengubah arah ke kiri ('LEFT'), ekspresi kondisional yang benar agar perubahan arah hanya terjadi jika tidak berlawanan langsung adalah...
+A.	if (direction === 'RIGHT') direction = 'LEFT';
+B.	if (direction !== 'RIGHT') direction = 'LEFT';
+C.	if (direction !== 'LEFT') direction = 'LEFT';
+D.	if (direction === 'UP' && direction === 'DOWN') direction = 'LEFT';
+E.	if (direction === 'LEFT') direction = 'RIGHT';
+
+19.	Untuk merepresentasikan struktur tubuh entitas yang terdiri atas rangkaian segmen koordinat (x, y) secara berurutan mulai dari kepala di indeks awal hingga ekor di indeks akhir, struktur data JavaScript yang paling efisien adalah...
+A.	Array of Objects, seperti [{x: 10, y: 10}, {x: 9, y: 10}]
+B.	Variabel boolean tunggal isActive = true
+C.	String teks panjang yang dipisahkan oleh karakter titik koma
+D.	Satu variabel angka desimal (floating-point) tunggal
+E.	Objek WeakMap tanpa pasangan kunci yang terdefinisi
+
+20.	Dalam algoritma pergeseran antrean koordinat pada array segments[] setiap kali entitas berpindah satu langkah maju tanpa mengalami penambahan panjang segmen, kombinasi dua metode manipulasi array yang dijalankan adalah...
+A.	segments.unshift(newHead) untuk menyisipkan koordinat baru di indeks 0 dan segments.pop() untuk menghapus elemen terakhir
+B.	segments.splice(0, segments.length) untuk mengosongkan seluruh isi elemen array
+C.	segments.push(newHead) untuk menambah elemen di akhir tanpa menghapus elemen mana pun
+D.	segments.shift() untuk menghapus elemen indeks 0 dan segments.pop() untuk menghapus elemen terakhir
+E.	segments.reverse() untuk membalik urutan seluruh elemen pada setiap siklus iterasi
+
+21.	Ketika koordinat kepala baru newHead terdeteksi berada pada posisi yang identik dengan koordinat objek target (newHead.x === target.x && newHead.y === target.y), penyesuaian algoritma pergerakan yang menyebabkan panjang array segments[] bertambah satu elemen adalah...
+A.	Melewati pemanggilan segments.pop() pada siklus iterasi tersebut setelah segments.unshift(newHead) dijalankan
+B.	Mengalikan nilai properti panjang array segments.length dengan konstanta angka 2
+C.	Memanggil metode segments.fill(newHead) pada seluruh indeks elemen di dalam array
+D.	Mengurutkan ulang seluruh isi koordinat array menggunakan metode segments.sort()
+E.	Menghapus elemen pertama pada indeks ke-0 menggunakan metode segments.shift()
+
+22.	Pada siklus pengecekan batas dan tabrakan di Modul 7, terdapat dua kondisi evaluasi logika yang menyebabkan variabel status aplikasi diubah menjadi 'TERMINATED' (sesi berakhir), yaitu ketika...
+A.	Ekspresi newHead.x === target.x bernilai benar atau hasil operasi score % 10 === 0
+B.	Koordinat newHead berada di luar rentang indeks grid (< 0 atau >= gridSize) atau cocok dengan salah satu koordinat elemen di dalam segments[]
+C.	Pengguna menekan tombol keyboard yang sama sebanyak dua kali dalam rentang waktu satu detik
+D.	Nilai koordinat sumbu horizontal target.x bernilai sama persis dengan sumbu vertikal target.y
+E.	Panjang elemen di dalam array segments.length mencapai bilangan kelipatan genap
+
+23.	Sebelum menetapkan koordinat acak baru untuk objek target di dalam fungsi spawnTarget(), program wajib menjalankan perulangan validasi (while atau some()) terhadap seluruh elemen array segments[]. Tujuan utama dari validasi tersebut adalah...
+A.	Untuk memastikan koordinat acak yang dihasilkan tidak bertabrakan dengan indeks sel yang sedang ditempati oleh elemen segments[]
+B.	Karena fungsi bawaan Math.random() tidak dapat menghasilkan bilangan bulat tanpa adanya array pembanding
+C.	Agar koordinat objek target yang baru selalu ditempatkan pada posisi indeks sudut [0][0]
+D.	Untuk mengonversi satuan nilai koordinat dari piksel menjadi satuan persentase relatif layar
+E.	Agar mesin peramban tidak memblokir eksekusi fungsi pembulatan Math.floor()
+
+24.	Pada antarmuka aplikasi berbasis layar sentuh yang menyediakan tombol kendali arah virtual (D-Pad), penerapan prinsip clean code (kode bersih dan modular) untuk menghubungkan tombol virtual dengan kontrol keyboard dilakukan dengan cara...
+A.	Memanggil fungsi pengubah arah yang sama (misalnya setDirection('UP')) dari event click/touchstart tombol maupun dari event keydown
+B.	Menduplikasi seluruh blok kode main loop ke dalam masing-masing fungsi event listener tombol virtual
+C.	Memanggil metode localStorage.clear() setiap kali salah satu tombol kontrol virtual ditekan
+D.	Menggunakan fungsi eval() untuk mengeksekusi string perintah arah secara dinamis di memori
+E.	Mengubah dimensi resolusi lebar dan tinggi elemen <canvas> setiap kali tombol disentuh
+
+25.	Dalam pengembangan simulasi fisika dan animasi waktu nyata pada elemen HTML5 <canvas> (Modul 8), fungsi requestAnimationFrame(callback) jauh lebih direkomendasikan dibandingkan setInterval(callback, 16) karena...
+A.	Karena requestAnimationFrame() menyinkronkan eksekusi rendering dengan refresh rate layar perangkat dan otomatis menjeda eksekusi saat tab tidak aktif
+B.	requestAnimationFrame() tidak membutuhkan pemanggilan ulang secara rekursif untuk merender frame berikutnya
+C.	Fungsi setInterval() tidak memiliki izin akses untuk membaca konteks rendering 2D (canvas.getContext('2d'))
+D.	requestAnimationFrame() secara otomatis menghitung persamaan vektor pantulan tumbukan fisika
+E.	requestAnimationFrame() menonaktifkan proses garbage collection selama siklus animasi berjalan
+
+26.	Pada simulasi kinematika gerak 2D dengan komponen vektor kecepatan horizontal vx dan vertikal vy, operasi pembaruan variabel yang tepat ketika lingkaran dengan jari-jari r menyentuh batas tepi kiri (x - r <= 0) atau batas tepi kanan (x + r >= canvas.width) adalah...
+A.	vy = -vy;
+B.	vx = -vx;
+C.	vx = 0; vy = 0;
+D.	y += 100;
+E.	r *= 2;
+
+27.	Saat objek lingkaran bergerak turun ke bawah dan terdeteksi beririsan dengan permukaan atas bidang pantul horizontal (paddle), ekspresi matematis JavaScript yang menjamin arah vektor kecepatan vertikal vy selalu berbalik mengarah ke atas (bernilai negatif) adalah...
+A.	vy = Math.abs(vy)
+B.	vy = -Math.abs(vy)
+C.	vx = -Math.abs(vx)
+D.	vy = 0
+E.	vx = vy
+
+28.	Pada implementasi antarmuka berbasis layar sentuh menggunakan Touch Events API di Modul 8, nama event DOM yang dipicu secara berkesinambungan selama pengguna menggeser ujung jarinya di permukaan layar adalah...
+A.	touchstart
+B.	touchmove
+C.	touchend
+D.	touchcancel
+E.	wheel
+
+29.	Ketika fungsi event handler menerima objek TouchEvent bernama e untuk melacak pergeseran horizontal dari titik sentuh jari pertama pengguna pada layar, properti objek event yang harus diakses adalah...
+A.	e.keyCode
+B.	e.touches[0].clientX
+C.	e.target.innerHTML
+D.	e.deltaY
+E.	e.button
+
+30.	Di dalam blok fungsi listener untuk event touchmove pada aplikasi web interaktif mobile, pengembang sering menyertakan pemanggilan metode e.preventDefault(). Fungsi teknis dari pemanggilan metode tersebut adalah...
+A.	Mencegah perilaku bawaan browser seperti menggulir halaman (scrolling) atau pull-to-refresh saat jari digeser di atas canvas
+B.	Mematikan pembacaan sensor layar sentuh perangkat secara otomatis setelah satu kali geseran
+C.	Menghapus seluruh data cache sementara dan cookie sesi yang tersimpan di dalam peramban
+D.	Mengunci orientasi tampilan layar perangkat menjadi mode lanskap secara permanen
+E.	Menghentikan jadwal pemanggilan siklus frame berikutnya pada requestAnimationFrame()
+
+B.	Pilihan Ganda Kompleks (Pilihlah 5 Jawaban Benar)
+
+31.	Perhatikan potongan logika navigasi grid dua dimensi pada array map[r][c] di bawah ini:
+Nilai 0 merepresentasikan sel kosong yang dapat dilalui.
+Nilai 1 merepresentasikan dinding atau penghalang statis.
+Nilai 3 merepresentasikan item yang dapat diambil oleh pemain.
+Saat menekan ArrowUp, indeks baris tujuan dihitung dengan nextR = r - 1 dan nextC = c.
+Berdasarkan pernyataan di atas, manakah 5 pernyataan yang TEPAT mengenai pengelolaan matriks 2D?
+A.	Ketika pemain melangkah ke sel bernilai 3, nilai sel tersebut sebaiknya diubah menjadi 0 agar item tidak dapat diambil berulang kali.
+B.	Saat menekan ArrowUp dari posisi (r, c), pergerakan ke baris di atasnya dapat dihitung dengan nextR = r - 1 dan nextC = c.
+C.	Validasi if (map[nextR][nextC] === 1) return; akan membatalkan perpindahan sebelum koordinat pemain diperbarui.
+D.	Indeks pertama map[r] merepresentasikan baris (sumbu Y), sedangkan indeks kedua map[r][c] merepresentasikan kolom (sumbu X).
+E.	Event listener keydown dapat digunakan untuk menangkap sinyal penekanan tombol arah navigasi pada grid.
+F.	Indeks pertama map[r] selalu merepresentasikan kolom (sumbu X), sedangkan indeks kedua map[r][c] merepresentasikan baris (sumbu Y).
+G.	Validasi if (map[nextR][nextC] === 1) return; akan mengubah nilai sel 1 menjadi 0 sebelum keluar dari fungsi.
+H.	Event listener scroll adalah event utama untuk menangkap penekanan tombol arah ArrowUp secara langsung.
+I.	Menghapus seluruh baris pada matriks saat mengambil item dapat dilakukan dengan map.pop().
+J.	Fungsi return; di dalam move() akan menghentikan seluruh file skrip JavaScript di halaman web.
+
+32.	Sebuah objek atau elemen bertipe 2 berada di posisi (row, col) pada matriks map[row][col]. Elemen tersebut hanya boleh digeser satu langkah ke kanan apabila sel di kanannya berisi elemen 2 dan sel berikutnya kosong (0). Manakah 5 pernyataan yang BENAR?
+A.	Syarat kondisi yang tepat adalah map[row][col + 1] === 2 && map[row][col + 2] === 0.
+B.	Pergeseran ke kanan pada grid mempertahankan nilai indeks row dan menambah nilai indeks col.
+C.	Memeriksa kondisi sebelum mengubah nilai array membantu mencegah elemen menimpa sel yang tidak kosong.
+D.	Operator logika && mewajibkan kedua syarat bernilai true agar pergeseran diizinkan.
+E.	Jika sel di kanan (col + 1) bernilai 1 (penghalang), sel tersebut tidak dapat dilalui secara langsung.
+F.	Syarat kondisi yang tepat adalah map[row][col + 1] === 0 && map[row][col + 2] === 2.
+G.	Operator logika || pada map[row][col + 1] === 2 || map[row][col + 2] === 3 menjamin sel di depannya selalu kosong.
+H.	Pergeseran ke kanan mengubah nilai indeks baris (row) menjadi row + 1 dan mempertahankan col.
+I.	Pemanggilan delete map[row] akan menggeser semua item di baris tersebut ke arah kanan.
+J.	Operasi map[row].shift() digunakan untuk menggeser satu sel ke kanan tanpa mengubah panjang baris.
+
+33.	Dalam perancangan sistem manajemen waktu dan alur status entitas, pengembang menggunakan timer serta pola Finite State Machine (FSM). Manakah 5 pernyataan yang TEPAT?
+A.	setTimeout(fn, 3000) menjadwalkan eksekusi fn satu kali setelah jeda sekitar 3 detik.
+B.	setInterval(fn, 1000) mengeksekusi fn secara berulang setiap sekitar 1000 milidetik hingga dihentikan.
+C.	Menyimpan ID numerik dari setInterval() memudahkan penghentian siklus menggunakan clearInterval(id).
+D.	Urutan transisi 'WAITING_ORDER' -> 'COOKING' -> 'READY_TO_SERVE' -> 'EATING' sesuai dengan alur siklus layanan.
+E.	Menggunakan if/else atau switch pada state di dalam event click membantu menyesuaikan respons antarmuka dengan kondisi saat ini.
+F.	setInterval(fn, 1000) mengeksekusi fn sekali saja setelah 1000 milidetik lalu berhenti selamanya.
+G.	Urutan status pesanan yang logis pada FSM adalah 'EATING' -> 'READY_TO_SERVE' -> 'COOKING' -> 'WAITING_ORDER'.
+H.	setTimeout(3000, finishBaking) adalah urutan argumen standar yang benar pada Web API JavaScript.
+I.	setInterval() bersifat sinkron dan selalu mengembalikan objek Promise yang wajib menggunakan await.
+J.	Mengabaikan clearInterval(timerId) saat objek selesai diproses tidak pernah berdampak pada memori aplikasi.
+
+34.	Perhatikan kebutuhan pengelolaan timer dan status objek pada aplikasi interaktif berbasis waktu. Manakah 5 pernyataan yang BENAR?
+A.	Memanggil clearInterval(timerId) saat sesi berakhir atau objek selesai diproses mencegah callback berjalan terus di latar belakang.
+B.	Saat customer.patience <= 0, mengubah state menjadi 'ANGRY' dan menghentikan interval merupakan langkah penanganan yang tepat.
+C.	Finite State Machine (FSM) membantu mengatur perpindahan status objek secara terstruktur sesuai kondisi yang terjadi.
+D.	Satu elemen DOM dapat memberikan respons berbeda saat diklik dengan mengevaluasi nilai properti state objek.
+E.	Parameter waktu pada setTimeout() dan setInterval() dinyatakan dalam satuan milidetik.
+F.	clearTimeout() digunakan untuk menghentikan interval yang dibuat oleh setInterval().
+G.	Saat customer.patience <= 0, pengembang sebaiknya menggandakan patience menjadi 200 agar sesi tidak pernah berakhir.
+H.	JavaScript membatasi maksimal hanya satu variabel integer aktif di seluruh skrip.
+I.	setInterval() hanya menerima arrow function dan menolak deklarasi fungsi bernama.
+J.	Menghapus elemen <canvas> dari DOM adalah cara standar untuk menghentikan satu setInterval tertentu.
+
+35.	Pergerakan objek berantai di grid 2D diatur menggunakan array koordinat dan validasi arah. Manakah 5 pernyataan yang TEPAT?
+A.	Struktur [{x: 10, y: 10}, {x: 9, y: 10}] merepresentasikan rangkaian segmen posisi secara berurutan.
+B.	Jika arah saat ini 'RIGHT', kondisi if (direction !== 'RIGHT') direction = 'LEFT'; mencegah pembalikan arah 180 derajat langsung.
+C.	Saat bergerak maju tanpa tumbuh panjang, segments.unshift(newHead) diikuti segments.pop() memperbarui posisi segmen.
+D.	Saat kepala menyentuh target (newHead.x === target.x && newHead.y === target.y), melewati segments.pop() setelah unshift() menambah panjang tubuh.
+E.	Validasi dengan some() atau while() sebelum menempatkan target baru membantu mencegah target muncul di atas tubuh yang sudah ada.
+F.	Menggunakan operator = pada if (direction = 'LEFT') akan membandingkan arah tanpa mengubah nilai variabel.
+G.	segments.reverse() adalah pasangan wajib dari segments.shift() untuk menggeser kepala ke depan.
+H.	Fungsi Math.random() tidak dapat digunakan sama sekali tanpa array segmen tubuh.
+I.	Jika arah saat ini 'RIGHT', kondisi if (direction === 'RIGHT') direction = 'LEFT'; aman untuk mencegah tabrakan langsung.
+J.	Tombol virtual layar sentuh harus menduplikasi seluruh main loop agar dapat berfungsi.
+
+36.	Terkait siklus hidup dan logika pergerakan entitas berantai pada grid 2D, manakah 5 pernyataan yang BENAR?
+A.	Keluar dari batas grid (< 0 atau >= gridSize) atau menabrak tubuh sendiri dapat mengubah status menjadi 'TERMINATED'.
+B.	Menghubungkan tombol D-Pad layar sentuh dan keyboard ke fungsi pengubah arah yang sama mendukung prinsip clean code.
+C.	Operator !== digunakan untuk membandingkan ketidaksamaan secara ketat dalam validasi arah.
+D.	Menempatkan target tanpa mengecek posisi segmen berisiko membuat target muncul tepat di atas koordinat segmen yang aktif.
+E.	Memanggil fungsi bersama seperti setDirection('UP') dari kontrol sentuh maupun keyboard menghindari duplikasi logika arah.
+F.	segments.splice(0, segments.length) digunakan untuk menggeser tubuh satu langkah maju sambil mempertahankan panjangnya.
+G.	Memanggil segments.fill(newHead) akan menambah panjang array sebanyak satu elemen di bagian ekor.
+H.	Mengalikan segments.length dengan 2 adalah cara standar menambah panjang segmen saat memakan target.
+I.	Saat target berhasil diambil, memanggil segments.pop() tetap membuat panjang segmen bertambah satu.
+J.	Menabrak batas luar grid tidak pernah memengaruhi status sesi permainan.
+
+
+37.	Dalam pengembangan simulasi pantulan dan kontrol sentuh pada <canvas>, manakah 5 pernyataan yang TEPAT?
+A.	requestAnimationFrame(callback) menyinkronkan rendering dengan refresh rate layar dan menjeda saat tab tidak aktif.
+B.	Jika lingkaran menyentuh batas kiri (x - r <= 0) atau kanan (x + r >= canvas.width), membalik vx dengan vx = -vx; mengubah arah horizontal.
+C.	Saat lingkaran turun mengenai permukaan atas paddle, vy = -Math.abs(vy) memastikan komponen kecepatan vertikal mengarah ke atas.
+D.	Event touchmove dipicu secara berkesinambungan saat jari pengguna bergeser di permukaan layar sentuh.
+E.	Memanggil e.preventDefault() pada touchmove membantu mencegah scrolling atau pull-to-refresh bawaan browser saat menggeser jari.
+F.	requestAnimationFrame() secara otomatis menghitung gaya gravitasi dan pantulan tanpa rumus fisika apa pun.
+G.	setInterval(callback, 16) selalu lebih disarankan daripada requestAnimationFrame() karena tidak pernah berjalan saat tab tidak aktif.
+H.	touchstart adalah satu-satunya event yang dipicu terus-menerus sepanjang jari digeser di layar.
+I.	requestAnimationFrame() tidak perlu dipanggil ulang di dalam callback untuk melanjutkan animasi frame berikutnya.
+J.	e.button adalah properti standar TouchEvent untuk membaca koordinat X jari pertama.
+
+38.	Perhatikan skenario kontrol sentuh dan deteksi batas pada animasi <canvas>. Manakah 5 pernyataan yang BENAR?
+A.	Pada TouchEvent, e.touches[0].clientX digunakan untuk membaca posisi horizontal titik sentuh pertama.
+B.	ctx.clearRect(0, 0, canvas.width, canvas.height) di awal frame membersihkan frame sebelumnya agar tidak meninggalkan jejak visual (smearing).
+C.	Kondisi ball.y - ball.radius > canvas.height dapat dipakai untuk mendeteksi bola jatuh melewati batas bawah canvas.
+D.	vy = -Math.abs(vy) menghasilkan nilai yang tidak pernah positif (<= 0).
+E.	Jika ctx.clearRect(...) tidak dipanggil sebelum menggambar frame baru, jejak gambar sebelumnya dapat menumpuk pada canvas.
+F.	Membalik arah gerak ke atas setelah menyentuh batas atas layar menggunakan vx = -vx sebagai rumus utama.
+G.	e.preventDefault() pada touchmove berfungsi menonaktifkan sensor layar sentuh setelah satu sentuhan.
+H.	Mengubah r *= 2 adalah respons standar saat bola menyentuh tepi kiri atau kanan canvas.
+I.	e.keyCode adalah properti utama TouchEvent untuk melacak pergeseran jari di layar.
+J.	Menghapus ctx.clearRect() sepenuhnya membuat animasi bebas jejak tanpa perlu mengatur ulang canvas.
+
+39.	Papan permainan dan rotasi blok direpresentasikan sebagai matriks dua dimensi. Manakah 5 pernyataan yang TEPAT?
+A.	Ukuran papan standar yang umum digunakan adalah 20 baris × 10 kolom.
+B.	Rumus rotasi 90 derajat searah jarum jam pada matriks persegi berukuran NN adalah result[r][c] = matrix[N - 1 - c][r].
+C.	Metode row.every(cell => cell !== 0) memeriksa apakah seluruh sel pada baris row berisi nilai bukan nol.
+D.	Setelah menghapus baris penuh dengan board.splice(r, 1), menambahkan board.unshift(new Array(10).fill(0)) menjaga jumlah baris tetap 20.
+E.	isValidMove(matrix, offsetX, offsetY) memeriksa agar sel aktif tidak keluar batas papan dan tidak menumpuk pada sel terisi (!== 0).
+F.	row.some(cell => cell === 0) bernilai true apabila seluruh sel pada baris tersebut sudah terisi penuh (!== 0).
+G.	Metode board.splice(r, 1) secara otomatis menambahkan baris kosong baru di bagian paling atas papan.
+H.	isValidMove() sebaiknya dilewati saat merotasi blok agar blok dapat menembus dinding papan.
+I.	merge(board, piece) dipanggil tepat saat tombol pause ditekan oleh pengguna.
+J.	matrix.flat() wajib digunakan sebelum melakukan rotasi 90 derajat searah jarum jam.
+
+40.	Diberikan matriks persegi berukuran 33 dengan isi [[0, 1, 0], [1, 1, 1], [0, 0, 0]] serta aturan papan 20 baris × 10 kolom. Manakah 5 pernyataan yang BENAR?
+A.	merge(board, piece) menyalin sel aktif blok ke papan utama ketika gerak turun (offsetY + 1) tidak valid (false).
+B.	Jika isValidMove() langsung mengembalikan false saat blok baru muncul di atas, hal tersebut menandakan papan sudah penuh hingga bagian atas.
+C.	Dengan rumus result[r][c] = matrix[N - 1 - c][r] dan N=3, indeks result[0][1] mengambil nilai dari matrix[1][0].
+D.	row.every(cell => cell !== 0) akan mengembalikan false jika terdapat minimal satu sel bernilai 0 pada baris tersebut.
+E.	Menghapus baris penuh dengan board.splice(r, 1) tanpa menambah baris baru akan mengurangi jumlah baris papan menjadi 19.
+F.	Dengan rumus result[r][c] = matrix[N - 1 - c][r] dan N=3, indeks result[0][1] mengambil nilai dari matrix[2][0].
+G.	Ukuran papan standar adalah 10 baris × 20 kolom dengan unshift menambahkan baris di bagian bawah.
+H.	Setiap baris yang terhapus otomatis menambah skor sebesar 1000 poin tanpa pengecekan baris.
+I.	Menghapus satu baris penuh menggunakan board.splice(r, 1) sudah otomatis menjaga jumlah baris tetap 20 tanpa unshift().
+J.	Pengecekan tabrakan tidak diperlukan ketika blok digeser ke samping atau ke bawah.
+
+41.	Dalam pengelolaan banyak objek dinamis seperti bullets[] dan enemies[], manakah 5 pernyataan yang TEPAT?
+A.	Array dinamis digunakan karena banyak instans objek muncul dan hilang secara dinamis selama permainan berjalan.
+B.	Kombinasi event keydown dan keyup dengan objek keys = {} membantu menghasilkan pergerakan yang halus tanpa terhambat auto-repeat delay OS.
+C.	Pada keydown, keys[e.code] = true, dan pada keyup, keys[e.code] = false, lalu update() membaca status tersebut di setiap frame.
+D.	Deteksi tabrakan AABB antara persegi panjang A dan B (x, y, width, height) menggunakan kondisi A.x < B.x + B.width && A.x + A.width > B.x && A.y < B.y + B.height && A.y + A.height > B.y.
+E.	Menghapus objek yang keluar layar atau bertabrakan menggunakan splice(index, 1) membantu mencegah kebocoran memori (memory leak).
+F.	JavaScript melarang penyimpanan properti x dan y di dalam objek tunggal.
+G.	ctx.fillRect() hanya menerima parameter bertipe Array.
+H.	Membiarkan peluru di luar layar tetap berada di bullets[] adalah praktik terbaik agar tidak perlu menghitung batas layar.
+I.	Mengubah bullet.x menjadi NaN tanpa menghapusnya dari array adalah cara yang direkomendasikan untuk garbage collection manual.
+J.	keypress dan click adalah pasangan event standar untuk memetakan keys[e.code] = true/false secara berkelanjutan.
+
+42.	Perhatikan mekanisme pergerakan, tabrakan, dan penghapusan elemen pada array bullets[] dan enemies[]. Manakah 5 pernyataan yang BENAR?
+A.	Jika peluru yang keluar kanan layar (bullet.x > canvas.width) tidak dihapus dari bullets[], array dapat terus membengkak dan menurunkan performa.
+B.	Loop mundur for (let i = enemies.length - 1; i >= 0; i--) aman saat menghapus elemen dengan splice(i, 1) karena tidak melewatkan elemen berikutnya.
+C.	Peluru yang meluncur dari kiri ke kanan umumnya memperbarui posisi horizontalnya dengan bullet.x += bullet.speed;.
+D.	Jika musuh bergerak dari kanan ke kiri layar, ekspresi enemy.x -= enemy.speed; menggeser posisi x ke arah kiri.
+E.	Loop mundur i-- mencegah terlewatnya elemen bergeser ketika elemen pada indeks i dihapus menggunakan splice(i, 1).
+F.	Loop maju i++ saat memanggil splice(i, 1) selalu aman dan tidak pernah melewatkan elemen setelah elemen yang dihapus.
+G.	Deteksi tabrakan AABB menyatakan dua kotak tidak beririsan jika A.x === B.x && A.y === B.y.
+H.	Mengatur width = 0 dan height = 0 sambil tetap menyimpan objek di array menghilangkan seluruh beban iterasi pada update().
+I.	Loop mundur pada array dinamis hanya dapat berjalan jika panjang array bersifat tetap.
+J.	Menggerakkan peluru ke kanan menggunakan bullet.x -= bullet.speed;.
+
+43.	Dalam arsitektur aplikasi interaktif 2D berbasis HTML5 Canvas, manakah 5 pernyataan yang TEPAT?
+A.	Urutan pipeline umum dalam main loop adalah membaca input, memperbarui status/koordinat, mendeteksi tabrakan, lalu membersihkan dan merender ulang canvas.
+B.	Struktur data matriks 2D paling sesuai untuk peta grid baris-kolom, sedangkan array of objects sesuai untuk daftar entitas dinamis.
+C.	Memisahkan logika pembaruan status (update) dan penggambaran (render) membantu menjaga kode tetap terstruktur.
+D.	requestAnimationFrame() lebih cocok untuk animasi visual layar dibandingkan setInterval() dengan jeda tetap.
+E.	Validasi batas dan tabrakan membantu mencegah akses indeks di luar batas atau perilaku tak terduga saat objek bergerak.
+F.	Memanggil clearRect() setelah menggambar objek baru pada frame yang sama akan menampilkan objek tersebut secara lebih jelas.
+G.	cancelAnimationFrame() wajib dipanggil di setiap awal frame agar main loop dapat berjalan terus-menerus.
+H.	Mengosongkan seluruh array entitas di setiap awal frame adalah bagian standar dari pipeline main loop.
+I.	Semua struktur data di JavaScript memiliki performa dan perilaku yang identik untuk setiap kasus penggunaan.
+J.	Main loop tidak memerlukan pembaruan koordinat sama sekali jika objek bergerak berdasarkan input pengguna.
+
+44.	Bandingkan teknik validasi kondisi dan manipulasi data pada dua pendekatan berikut:Matriks 2D: memeriksa sel sebelum melangkah, merotasi, atau menggabungkan ke papan. Array koordinat/entitas: menambah, menggeser, atau menghapus elemen secara aman. Manakah 5 pernyataan yang TEPAT?
+A.	Mengecek kondisi tujuan sebelum mengubah posisi membantu mencegah objek menabrak penghalang atau keluar area valid.
+B.	Menggunakan unshift() dan pop() pada array segmen memungkinkan pergeseran antrean koordinat saat bergerak maju.
+C.	Menghapus baris penuh pada matriks 2D menggunakan splice() perlu diimbangi penambahan baris baru agar ukuran grid tetap konsisten.
+D.	Menghapus item dari array saat iterasi menggunakan splice() perlu memperhatikan arah iterasi agar tidak melewatkan elemen.
+E.	Operator === membandingkan nilai dan tipe data secara ketat dalam pengecekan kode sel matriks.
+F.	Memanggil localStorage.clear() adalah langkah yang tepat setiap kali objek berpindah sel pada grid.
+G.	Mengubah seluruh isi matriks menjadi string kosong adalah cara standar menghapus satu item yang diambil pemain.
+H.	Memanggil setInterval() baru tanpa menghentikan interval lama pada setiap tick adalah praktik aman untuk timer.
+I.	Mengabaikan batas indeks array tidak pernah menimbulkan kesalahan atau perilaku yang tidak diinginkan.
+J.	every() mengembalikan true jika minimal satu elemen saja memenuhi kondisi.
+
+
+45.	Seorang siswa sedang mengembangkan aplikasi interaktif 2D dengan JavaScript dan mengalami masalah: objek bergerak terlalu cepat/tidak mulus saat tombol ditahan, jejak gambar lama masih terlihat di canvas, dan jumlah objek di memori terus bertambah. Manakah 5 pernyataan yang TEPAT untuk mengatasi masalah tersebut?
+A.	Menggunakan pola key-state map (keys[e.code]) dengan keydown dan keyup serta menggerakkan objek di dalam update loop membantu pergerakan lebih mulus.
+B.	Memanggil ctx.clearRect(0, 0, canvas.width, canvas.height) sebelum menggambar ulang frame membantu menghilangkan jejak visual frame sebelumnya.
+C.	Menghapus objek yang keluar dari batas layar atau bertabrakan dari array menggunakan splice() membantu mencegah penumpukan objek tak terpakai.
+D.	Menghentikan timer yang sudah tidak diperlukan dengan clearInterval() membantu mencegah eksekusi callback berulang yang tidak lagi dibutuhkan.
+E.	Menggunakan requestAnimationFrame() membantu menyelaraskan pembaruan visual dengan siklus refresh layar.
+F.	Menambahkan while(true) di dalam event listener adalah cara terbaik untuk mempercepat gerakan objek.
+G.	Membiarkan objek di luar batas canvas tetap ada di array akan mempercepat proses rendering.
+H.	Menghapus ctx.clearRect() sepenuhnya akan membuat animasi berjalan lebih ringan dan bebas jejak.
+I.	Mengganti semua array dengan satu variabel angka tunggal dapat menyimpan banyak entitas aktif sekaligus.
+J.	Mengabaikan keyup selalu membuat gerakan objek lebih halus daripada melacak status tekan dan lepas tombol.
+
+
+C.	Uraian
+
+46.	Jelaskan perbedaan mendasar antara aplikasi berbasis web (Web Application) dengan aplikasi desktop/native, serta sebutkan kelebihan utama aplikasi web dari segi aksesibilitas dan pemeliharaan (maintenance)!
+47.	Dalam arsitektur teknologi web, jelaskan peran serta perbedaan cara kerja antara Client-Side (Sisi Klien) dan Server-Side (Sisi Server) dalam merespon permintaan pengguna!
+48.	Uraikan bagaimana mekanisme/siklus Request dan Response HTTP/HTTPS bekerja ketika seorang pengguna mengetikkan URL alamat website di web browser hingga halaman web tampil sempurna!
+49.	Jelaskan fungsi web browser sebagai perangkat lunak web dan bagaimana modul rendering engine (seperti Blink atau Gecko) menerjemahkan kode HTML, CSS, dan JavaScript menjadi tampilan visual yang interaktif!
+50.	Apa fungsi utama dari Web Server (seperti Apache, Nginx, atau LiteSpeed) dan bagaimana web server menangani request berkas statis maupun dinamis dari client?
+
+
